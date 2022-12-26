@@ -1,0 +1,49 @@
+
+.eight-ball {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.eight-ball-title {
+    font-family: "Cambria", "Cochin", "Georgia", "Times", 'Times New Roman', "serif";
+    font-size: 70px;
+    -webkit-text-fill-color: rgb(0, 0, 0); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: goldenrod;
+}
+
+.eight-ball-msg {
+    font-family: "Cambria", "Cochin", "Georgia", "Times", 'Times New Roman', "serif";
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    bottom: 400px;
+    left: 610px;
+}
+
+.eight {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 150px solid rgb(48, 54, 201);
+    position: absolute;
+    bottom: 300px;
+    left: 610px;
+}
+
+.button {
+    font-family: "Cambria", "Cochin", "Georgia", "Times", 'Times New Roman', "serif";
+    font-size: 30px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 75px;
+    left: 640px;
+    background-color: gold;
+}
